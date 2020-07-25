@@ -4,57 +4,47 @@ let resumeData = {
   "role": "Full Stack Web Developer",
   "linkedinId": "Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  "roleDescription": " I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+  "roleDescription": " I'm passionate about learning how to build a connective, impactful experience through creatively engaging user interfaces and meaningful online interactions on the web.",
   "socialLinks": [
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+      "url": "https://www.linkedin.com/in/andrewbautista85/",
       "className": "fa fa-linkedin"
     },
     {
       "name": "github",
-      "url": "http://github.com/rbhatia46",
+      "url": "http://github.com/warriorofzarona",
       "className": "fa fa-github"
     },
     {
       "name": "skype",
-      "url": "http://twitter.com/rbhatia46",
+      "url": "http://twitter.com/ambwebdev",
       "className": "fa fa-twitter"
     }
   ],
-  "aboutme": "I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-  "address": "India",
-  "website": "https://rbhatia46.github.io",
+  "aboutme": "In my changing career path, I've recently earned a certificate in Full Stack Development from Rutgers University, establishing skills in JavaScript, CSS, React.js, Node.js, as well as Express.js, mySQL, and MongoDB. I'm not afraid to get hands dirty to problem-solve programming challenges, and I'm positioned to employ my leadership as well as my combined technical skills and knowledge, making me an advantageous contributor to any development team.",
+  "address": "New Jersey, USA",
+  "website": "https://ambwebdev.io",
   "education": [
     {
-      "UniversityName": "The LNM Insitute of Information Technology",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Aug",
+      "UniversityName": "Rutgers University",
+      "specialization": "Full Stack Web Development",
+      "MonthOfPassing": "June",
       "YearOfPassing": "2020",
-      "Achievements": "Some Achievements"
+      "Description": "A 24-week intensive program focused on gaining technical programming skills.",
+      "Achievements": [
+        "HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, & ReactJS.",
+        "Awarded \"Debugging King\" and \"Most Likely to Inspire Young Coders\".",
+      ]
     },
-    {
-      "UniversityName": "Some University",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Jan",
-      "YearOfPassing": "2018",
-      "Achievements": "Some Achievements"
-    }
   ],
   "work": [
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
-    },
-    {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
+      "CompanyName": "Outreach Calling",
+      "specialization": "Caller/Manager",
+      "MonthOfLeaving": "September",
+      "YearOfLeaving": "2019",
+      "Achievements": ["Some Achievements"]
     }
   ],
   "skillsDescription": "Your skills here",
