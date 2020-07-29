@@ -220,7 +220,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #485466;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -242,7 +242,7 @@ ul#nav li.current a {
 
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #c6ccd4;
 }
 
 #about .profile-pic {
