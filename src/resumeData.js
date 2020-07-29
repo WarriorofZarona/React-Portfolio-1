@@ -61,24 +61,36 @@ let resumeData = {
   ],
   "portfolio": [
     {
-      "name": "project1",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
+      "name": "Eat-Da-Burger!",
+      "description": "Enter a burger, then choose to devour the burger. My first app using mySQL.",
+      "imgurl": "images/portfolio/burger.png",
+      "languages": ["HTML", "CSS", "Javascript", "Node.js", "Express.js", "mySQL"],
+      "github": "https://github.com/warriorofzarona/burger/",
+      "demo": "https://stark-falls-30386.herokuapp.com"
     },
     {
-      "name": "project2",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project.jpg"
+      "name": "Hungry Hub",
+      "description": "App where hungry users search for restaurants by location/recipes by ingredients. Uses Edamam and Zomato API's.",
+      "imgurl": "images/portfolio/Hungry-Hub.png",
+      "languages": ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"],
+      "github": "https://github.com/warriorofzarona/Hungry-Hub/",
+      deployed: "https://warriorofzarona.github.io/Hungry-Hub"
     },
     {
-      "name": "project3",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project2.png"
+      "name": "Google Books Search",
+      "description": "Use the Search Bar to find books from Google Books, view them in the store, or save them for viewing later. Uses Google Books API.",
+      "imgurl": "images/portfolio/Google-Books-Search.png",
+      "languages": ["HTML", "CSS", "Javascript", "REACT.js", "Node.js", "Express.js", "MongoDB"],
+      "github": "https://github.com/WarriorofZarona/Google-Books-Search/",
+      "demo": "https://calm-tundra-54547.herokuapp.com/"
     },
     {
-      "name": "project4",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
+      "name": "Waypoint App Messenger",
+      "description": "Create a profile, search for gamers with similar interests, and build connections by chat. Uses RAWG Games API.",
+      "imgurl": "images/portfolio/Waypoint.png",
+      "languages": [],
+      "github": "",
+      "demo": ""
     }
   ],
   "testimonials": [
