@@ -96,8 +96,8 @@ let resumeData = {
   ],
   "testimonials": [
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "description": "To put it simply, Andrew Bautista is a find... If I were in a position to hire, I would choose Andrew without hesitation. Whoever hires him will not regret it.",
+      "name": "John Dougherty, Instructor"
     },
     {
       "description": "This is a sample testimonial",
