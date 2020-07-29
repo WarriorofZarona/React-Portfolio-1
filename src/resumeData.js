@@ -2,7 +2,7 @@ let resumeData = {
   "imagebaseurl": "https://ambwebdev.io/",
   "name": "Andrew Bautista",
   "role": "Full Stack Web Developer",
-  "linkedinId": "Your LinkedIn Id",
+  "linkedinId": " andrewbautista85",
   "skypeid": "Your skypeid",
   "roleDescription": " I'm passionate about learning how to build a connective, impactful experience through creatively engaging user interfaces and meaningful online interactions on the web.",
   "socialLinks": [
@@ -25,6 +25,7 @@ let resumeData = {
   "aboutme": "In my changing career path, I've recently earned a certificate in Full Stack Development from Rutgers University, establishing skills in JavaScript, CSS, React.js, Node.js, as well as Express.js, mySQL, and MongoDB. I'm not afraid to get hands dirty to problem-solve programming challenges, and I'm positioned to employ my leadership as well as my combined technical skills and knowledge, making me an advantageous contributor to any development team.",
   "address": "New Jersey, USA",
   "website": "https://ambwebdev.io",
+  "email": "andrewbautista85@gmail.com",
   "education": [
     {
       "UniversityName": "Rutgers University",

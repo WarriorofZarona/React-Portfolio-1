@@ -1026,7 +1026,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #485466;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -1076,6 +1076,7 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   color: #c6ccd4;
 }
 
 #contact .header-col {
