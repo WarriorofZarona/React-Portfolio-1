@@ -398,38 +398,50 @@ ul#nav li.current a {
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-   width: 60%;
+.nodejs {
+   width: 80%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
 
-.illustrator {
-   width: 55%;
+.expressjs {
+   width: 80%;
    -moz-animation: illustrator 2s ease;
    -webkit-animation: illustrator 2s ease;
 }
 
-.wordpress {
-   width: 50%;
+.mysql {
+   width: 65%;
    -moz-animation: wordpress 2s ease;
    -webkit-animation: wordpress 2s ease;
 }
 
 .css {
-   width: 90%;
+   width: 85%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
 
 .html5 {
-   width: 80%;
+   width: 90%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
 }
 
 .jquery {
-   width: 50%;
+   width: 75%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+
+.mongodb {
+   width: 70%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+
+.reactjs {
+   width: 80%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
