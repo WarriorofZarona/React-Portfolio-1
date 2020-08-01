@@ -41,11 +41,14 @@ let resumeData = {
   ],
   "work": [
     {
-      "CompanyName": "Outreach Calling",
-      "specialization": "Caller/Manager",
-      "MonthOfLeaving": "September",
-      "YearOfLeaving": "2019",
-      "Achievements": ["Some Achievements"]
+      "CompanyName": "Trilogy Education",
+      "specialization": "Teaching Assistant",
+      "MonthOfLeaving": "July",
+      "YearOfLeaving": "2020",
+      "Achievements": [
+        "Provide one-on-one and group support to bootcamp participants in a remote environment focused on a full-stack web development curriculum",
+        "Coach bootcamp participants in areas such as HTML, CSS, JavaScript, RWD, Node.js, Express.js, MongoDB, SQL, React.js, APIs, Algorithms, and workflow management (Git, GitHub)"
+      ]
     }
   ],
   "skillsDescription": "Your skills here",
