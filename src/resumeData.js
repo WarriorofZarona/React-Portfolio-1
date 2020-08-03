@@ -55,33 +55,43 @@ let resumeData = {
   "skills": [
     {
       "skillname": "HTML5",
+      "image": "/images/skills/html5-logo.png"
     },
     {
-      "skillname": "CSS3"
+      "skillname": "CSS3",
+      "image": "/images/skills/CSS3-logo.png"
     },
     {
-      "javascript": "Javascript"
+      "skillname": "Javascript",
+      "image": "/images/skills/javascript-logo.png"
     },
     {
-      "skillname": "jQuery"
+      "skillname": "jQuery",
+      "image": "/images/skills/jquery-logo.png"
     },
     {
-      "skillname": "Bootstrap"
+      "skillname": "Bootstrap",
+      "image": "/images/skills/bootstrap-logo.png"
     },
     {
-      "skillname": "Reactjs"
+      "skillname": "Reactjs",
+      "image": "/images/skills/react-logo.png"
     },
     {
-      "skillname": "Nodejs"
+      "skillname": "Nodejs",
+      "image": "/images/skills/nodejs-logo.png"
     },
     {
-      "skillname": "Expressjs"
+      "skillname": "Expressjs",
+      "image": "/images/skills/express-logo.png"
     },
     {
-      "skillname": "mySQL"
+      "skillname": "mySQL",
+      "image": "/images/skills/mysql-logo.svg"
     },
     {
-      "skillname": "MongoDB"
+      "skillname": "MongoDB",
+      "image": "/images/skills/mongodb-logo.png"
     }
   ],
   "portfolio": [
