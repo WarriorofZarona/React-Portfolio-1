@@ -385,6 +385,12 @@ ul#nav li.current a {
    top: -36px;
 }
 
+.skill-logo {
+   width: 75px;
+   height: auto;
+   margin: 25px;
+}
+
 .bar-expand {
    position: absolute;
    left: 0;
