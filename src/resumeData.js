@@ -17,7 +17,7 @@ let resumeData = {
       "className": "fa fa-github"
     },
     {
-      "name": "skype",
+      "name": "twitter",
       "url": "http://twitter.com/ambwebdev",
       "className": "fa fa-twitter"
     }
@@ -30,7 +30,7 @@ let resumeData = {
     {
       "UniversityName": "Rutgers University",
       "specialization": "Full Stack Web Development",
-      "MonthOfPassing": "June",
+      "MonthOfPassing": "July",
       "YearOfPassing": "2020",
       "Description": "A 24-week intensive program focused on gaining technical programming skills.",
       "Achievements": [
@@ -134,9 +134,17 @@ let resumeData = {
       "name": "John Dougherty, Instructor"
     },
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
-    }
+      "description": "I can wholeheartedly recommend him as a fantastic addition to any team. His positivity through challenges, in addition to his ability to quickly learn and synthesize new information will make him an asset to your workplace.",
+      "name": "Christie Nadratwoski, Student Success Manager"
+    },
+    {
+      "description": "I'm confident in Andrew's ability to pick up different programming languages and tackle the various challenges software engineers are presented with day in and day out.",
+      "name": "Evan Arbietman, Teaching Assistant"
+    },
+    {
+      "description": "I'm proud to have worked along an inspiring and motivated programmer, who's not only able to lead, but also adept to learn from others.",
+      "name": "Christian Vasquez, Teaching Assistant"
+    },
   ]
 }
 
