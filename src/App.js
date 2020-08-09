@@ -6,7 +6,6 @@ import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
-import Modal from './components/Modal';
 import resumeData from './resumeData';
 class App extends Component {
   render() {
