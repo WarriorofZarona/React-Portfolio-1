@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Modal from './Modal';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -19,6 +20,7 @@ export default class Porfolio extends Component {
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>
                               <p>{item.description}</p>
+                              {/* <Modal item={item} /> */}
                             </div>
                           </div>
                         </a>
