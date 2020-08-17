@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import Modal from './Modal';
 export default class Porfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      modalIsOpen: false
+    };
+  }
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -14,16 +21,14 @@ export default class Porfolio extends Component {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <a href="#modal-01">
-                          <img src={`${item.imgurl}`} className="item-img" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
-                              {/* <Modal item={item} /> */}
-                            </div>
+                        <img src={`${item.imgurl}`} className="item-img" onClick={() => this.setState({ modalIsOpen: true })} />
+                        <div className="overlay">
+                          <div className="portfolio-item-meta">
+                            <h5>{item.name}</h5>
+                            <p>{item.description}</p>
+                            {this.state.modalisOpen ? <Modal item={item} /> : <div></div>}
                           </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   )
