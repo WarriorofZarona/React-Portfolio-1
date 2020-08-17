@@ -21,12 +21,12 @@ export default class Porfolio extends Component {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <img src={`${item.imgurl}`} className="item-img" onClick={() => this.setState({ modalIsOpen: true })} />
-                        <div className="overlay">
+                        <img src={`${item.imgurl}`} className="item-img" />
+                        <div className="overlay" onClick={() => this.setState({ modalIsOpen: true })} >
+                          {this.state.modalIsOpen ? <Modal item={item} /> : <div></div>}
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
                             <p>{item.description}</p>
-                            {this.state.modalisOpen ? <Modal item={item} /> : <div></div>}
                           </div>
                         </div>
                       </div>
