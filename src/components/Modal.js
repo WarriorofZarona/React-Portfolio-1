@@ -6,11 +6,11 @@ export default class Modal extends Component {
 
             // <div className="mfp-fade mfp-wrap">
             //     <div className="mfp-content">
-            <div className="popup-modal" id="modal-01">
+            <div className="popup-modal">
                 <div className="description-box">
                     <h4>Testing</h4>
                     <p>This is a test</p>
-                    <a href="#" className="popup-modal-dismiss">This is a clickable link</a>
+                    <a href="#">This is a clickable link</a>
                 </div>
             </div>
             //     <g
