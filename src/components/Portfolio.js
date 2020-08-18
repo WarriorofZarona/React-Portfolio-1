@@ -9,6 +9,7 @@ export default class Porfolio extends Component {
   }
 
   render() {
+    const handleClose = () => this.setState({ modalIsOpen: false });
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
@@ -23,7 +24,7 @@ export default class Porfolio extends Component {
                       <div className="item-wrap">
                         <img src={`${item.imgurl}`} className="item-img" />
                         <div className="overlay" onClick={() => this.setState({ modalIsOpen: true })} >
-                          {this.state.modalIsOpen ? <Modal item={item} /> : <div />}
+                          {this.state.modalIsOpen ? <Modal item={item} handleClose={handleClose} /> : <div />}
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
                             <p>{item.description}</p>
