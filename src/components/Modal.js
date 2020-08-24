@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 export default class Modal extends Component {
     render() {
-        console.log("Inside the props are", this.props)
         let item = this.props.item;
         let handleClose = this.props.handleClose;
-        console.log(handleClose)
+        let state = this.props.state;
         return (
 
-            // <div className="mfp-fade mfp-wrap">
-            //     <div className="mfp-content">
             <div className="popup-modal">
                 <div className="modal-content">
                     <div className="description-box">
@@ -19,7 +16,6 @@ export default class Modal extends Component {
                     </div>
                 </div>
             </div >
-            //     <g
         )
     }
 }
