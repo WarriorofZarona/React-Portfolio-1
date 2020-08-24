@@ -9,7 +9,7 @@ export default class Modal extends Component {
             <div className="popup-modal">
                 <div className="modal-content">
                     <div className="description-box">
-                        <button onClick={handleClose}>X</button>
+                        <button className="closeBtn" onClick={handleClose}>X</button>
                         <h4>Testing</h4>
                         <p>This is a test</p>
                         <a href="#">This is a clickable link</a>
