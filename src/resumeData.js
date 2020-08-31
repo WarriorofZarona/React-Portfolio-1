@@ -109,7 +109,7 @@ let resumeData = {
       "imgurl": "images/portfolio/Hungry-Hub.png",
       "languages": ["HTML", "CSS", "Bootstrap", "Javascript", "jQuery"],
       "github": "https://github.com/warriorofzarona/Hungry-Hub/",
-      deployed: "https://warriorofzarona.github.io/Hungry-Hub"
+      "deployed": "https://warriorofzarona.github.io/Hungry-Hub"
     },
     {
       "name": "Google Books Search",
