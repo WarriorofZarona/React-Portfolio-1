@@ -40,7 +40,6 @@ export default class Porfolio extends Component {
                       <div className="item-wrap">
                         <img src={`${item.imgurl}`} className="item-img" />
                         <div className="overlay" onClick={() => this.handleClick(item)} >
-                          {this.state.modalIsOpen ? <Modal item={this.state.item} handleClose={this.handleClose} /> : <div />}
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
                             <p>{item.description}</p>
@@ -51,6 +50,7 @@ export default class Porfolio extends Component {
                   )
                 })
               }
+              {this.state.modalIsOpen ? <Modal item={this.state.item} handleClose={this.handleClose} /> : <div />}
             </div>
           </div>
         </div>
