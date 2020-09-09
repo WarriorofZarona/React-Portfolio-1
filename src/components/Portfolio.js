@@ -9,10 +9,14 @@ export default class Porfolio extends Component {
     };
     this.handleClose = e => {
       e.stopPropagation();
+      e.preventDefault();
       console.log("Is this working?")
       this.setState({ modalIsOpen: false })
     };
     this.handleClick = (item) => {
+      // e.preventDefault();
+      // e.stopPropagation();
+      console.log("Hello world!")
       this.setState({ item: item })
       this.setState({ modalIsOpen: true });
     }
@@ -35,9 +39,9 @@ export default class Porfolio extends Component {
                     <div className="columns portfolio-item" key={index}>
                       <div className="item-wrap">
                         <img src={`${item.imgurl}`} className="item-img" />
-                        <div className="overlay" onClick={e => this.handleClick(item)} >
+                        <div className="overlay" onClick={() => this.handleClick(item)} >
                           {this.state.modalIsOpen ? <Modal item={this.state.item} handleClose={this.handleClose} /> : <div />}
-                          < div className="portfolio-item-meta">
+                          <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
                             <p>{item.description}</p>
                           </div>

@@ -11,10 +11,13 @@ export default class Modal extends Component {
                 <div className="modal-content">
                     <div className="description-box">
                         <button className="closeBtn" onClick={handleClose}>X</button>
-                        {console.log(i)}
+                        {console.log(item)}
+                        <img src={item.imgurl} className="img-modal" />
                         <h4>{item.name}</h4>
-                        <p>This is a test</p>
-                        <a href="#">This is a clickable link</a>
+                        <p>{item.description}</p>
+                        <p>{item.languages}</p>
+                        <a href={item.github}>This is a clickable link</a>
+                        <a href={item.demo ? item.demo : item.deployed}>This is a 2nd clickable link</a>
                     </div>
                 </div>
             </div >
